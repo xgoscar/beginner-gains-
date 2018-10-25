@@ -1,4 +1,4 @@
-$.getJSON('https://api.airtable.com/v0/app57qa27H9exSnqq/Chest?api_key=keyuEvAoHG6yJhC2T',
+$.getJSON('https://api.airtable.com/v0/app57qa27H9exSnqq/Chest \',
   function(airtable){
     var html = [];
     $.each(airtable.records, function(index, record) {
