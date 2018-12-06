@@ -1,12 +1,24 @@
-$.getJSON('https://api.airtable.com/v0/app57qa27H9exSnqq/Chest?api_key=keyuEvAoHG6yJhC2T',
-  function(airtable){
-    var html = [];
-    $.each(data.records, function(index, record) {
-      var name = record.fields['Name'];
-      var address = record.fields['Address'];
-      var rating = record.fields['Rating'];
-      html.push(`<h2>${name}, ${address}, ${rating}</h2>`);
-    });
-    $('body').append(html);
-  }
-);
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(https://cdn.hipwallpaper.com/i/0/80/0W8cGf.jpg);
+    background-position: 0% 25%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+ }
+ img {
+    height: 250px;
+    width: 250px;
+ }
+ 
+ .card {
+   margin: 10px;
+   height: 500px;
+   background: lightgray;
+ 
+ }
+
+ p { margin:0 }
+ 
